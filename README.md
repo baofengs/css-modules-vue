@@ -1,6 +1,8 @@
 Use CSS Module in Vue Project
 ---
 
+Vue 中 CSS Module 使用方法
+
 Inspired by [CSS Modules 用法教程](http://www.ruanyifeng.com/blog/2016/06/css_modules.html)
 
 
