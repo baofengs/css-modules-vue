@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # number od demos
-num=1
+num=11
 
 mkdir -p dist
 
@@ -31,3 +31,8 @@ while [ $count -le $num ]; do
     echo "============="
     count=$((count + 1))
 done
+
+./node_modules/.bin/gh-pages -d dist
+echo -e "commit to gh-pages branch succeed"
+rm -rf dist
+echo -e "delete dist directory succeed"

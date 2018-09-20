@@ -7,7 +7,6 @@ module.exports = {
         app: path.resolve(__dirname, './index.js')
     },
     output: {
-        path: '/',
         filename: './[name].js'
     },
     resolve: {
