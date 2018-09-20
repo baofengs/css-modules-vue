@@ -18,6 +18,8 @@ batchNum() {
     fi
 }
 
+cp index.html dist
+
 while [ $count -le $num ]; do
     batchNum $count
     cp -rf demo$batched dist
@@ -31,6 +33,8 @@ while [ $count -le $num ]; do
     echo "============="
     count=$((count + 1))
 done
+
+echo -e "all demos has built succeed"
 
 ./node_modules/.bin/gh-pages -d dist
 echo -e "commit to gh-pages branch succeed"
