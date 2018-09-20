@@ -27,6 +27,11 @@
             margin: auto;
             margin-bottom: 20px;
             max-width: 720px;
+            transition: all .25s;
+            box-shadow: 0 0px 5px 0 rgba(0, 0, 0, .3);
+        }
+        li:hover {
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);
         }
         a {
             display: block;
@@ -44,17 +49,17 @@
     <div class="container">
         <h1>CSS Modules</h1>
         <ol>
-            <li><a href="./demo01/"><span>Demo01：</span><span>局部作用域</span></a></li>
-            <li><a href="./demo02"><span>Demo02：</span></a></li>
-            <li><a href="./demo03"><span>Demo03：</span></a></li>
-            <li><a href="./demo04"><span>Demo04：</span></a></li>
-            <li><a href="./demo05"><span>Demo05：</span></a></li>
-            <li><a href="./demo06"><span>Demo06：</span></a></li>
-            <li><a href="./demo07"><span>Demo07：</span></a></li>
-            <li><a href="./demo08"><span>Demo08：</span></a></li>
-            <li><a href="./demo09"><span>Demo09：</span></a></li>
-            <li><a href="./demo10"><span>Demo10：</span></a></li>
-            <li><a href="./demo11"><span>Demo11：</span></a></li>
+            <li><a href="./demo01"><span>Demo01：</span><span>局部作用域</span></a></li>
+            <li><a href="./demo02"><span>Demo02：</span><span>全局作用域</span></a></li>
+            <li><a href="./demo03"><span>Demo03：</span><span>定制 Hash 类名</span></a></li>
+            <li><a href="./demo04"><span>Demo04：</span><span>Class 的组合</span></a></li>
+            <li><a href="./demo05"><span>Demo05：</span><span>输入其他模块</span></a></li>
+            <li><a href="./demo06"><span>Demo06：</span><span>输入变量</span></a></li>
+            <li><a href="./demo07"><span>Demo07：</span><span>可选用法，混合使用 CSS Module & 普通模式</span></a></li>
+            <li><a href="./demo08"><span>Demo08：</span><span>配置 SCSS</span></a></li>
+            <li><a href="./demo09"><span>Demo09：</span><span>和 SCSS 配合使用</span></a></li>
+            <li><a href="./demo10"><span>Demo10：</span><span>SCSS 可选用法</span></a></li>
+            <li><a href="./demo11"><span>Demo11：</span><span>自定义的注入名称</span></a></li>
         </ol>
     </div>
 </body>
