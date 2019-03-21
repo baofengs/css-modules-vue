@@ -19,6 +19,7 @@ batchNum() {
 }
 
 cp index.html dist
+cp CNAME dist
 
 while [ $count -le $num ]; do
     batchNum $count
